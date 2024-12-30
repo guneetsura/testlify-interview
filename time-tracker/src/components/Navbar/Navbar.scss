@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import "../../assets/theme.scss";
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 2px solid #EBECF0;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .navbar-right {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .create-btn {
+        background-color: $primary-color;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+        font-family: 'Rubik';
+    }
+
+    .create-btn:hover {
+        background-color: $hover-color;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #DFE1E6;
+        padding: 1px;
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-left: 0.5rem;
+        }
+
+        input {
+            border: none;
+            padding: 8px;
+            font-size: 16px;
+            outline: none;
+            width: 100%;
+        }
+    }
+
+    .profile-img {
+        width: 1.7rem;
+        height: 1.7rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    a {
+        color: $nav-text-color;
+        text-decoration: none;
+        padding: 0.4rem;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    a:hover {
+        color: $primary-color;
+        cursor: pointer;
+        background-color: $day-bg-color;
+    }
+
+    .icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+    }
+
+    .icon:hover {
+        border-radius: 50%;
+    }
+
+    .logo:hover {
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
+// .down-arrow {
+//     border: solid black;
+//     border-width: 0 2px 2px 0;
+//     display: inline-block;
+//     padding: 3px;
+//     transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+// }
+
+

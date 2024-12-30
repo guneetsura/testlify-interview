@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import "../../assets/theme.scss";
+
+.global-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    background-color: #F4F5F7;
+    padding: 10px;
+    border-right: 2px solid #DFE1E6;
+    font-weight: 500;
+    gap: 0.3rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: $nav-text-color;
+        text-decoration: none;
+        padding: 0.4rem;
+    }
+
+    a:hover {
+        color: $primary-color;
+        cursor: pointer;
+        background-color: $day-bg-color;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .icon:hover {
+        border-radius: 50%;
+    }
+
+    .logo:hover {
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .help-circle {
+        position: absolute;
+        margin-top: auto;
+        bottom: 0;
+        // margin-bottom: 0.5rem;
+    }
+}

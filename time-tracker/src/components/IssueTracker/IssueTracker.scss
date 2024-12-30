@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import "../../assets/theme.scss";
+
+.issue-tracker {
+    overflow-x: auto;
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      margin: 1rem 0;
+      font-family: "Rubik";
+  
+      th,
+      td {
+        border: 1px solid $border-color;
+        padding: 8px;
+        white-space: nowrap;
+      }
+  
+      th {
+        color: $label-color;
+        font-weight: 400;
+        font-size: 14px;
+  
+        span {
+          margin-right: 0.5rem;
+          font-size: 14px;
+          font-weight: 400;
+          color: $day-selected-text-color;
+        }
+  
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          color: $day-selected-text-color;
+          margin: auto;
+          padding: 0.1rem;
+  
+          &:hover {
+            cursor: pointer;
+            border-radius: 50%;
+            background-color: $day-bg-color;
+          }
+        }
+      }
+  
+      .totals-row {
+        font-weight: bold;
+      }
+  
+      .issue-title {
+        color: $label-color;
+        font-weight: 500;
+      }
+  
+      .issue-cell {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-align: left;
+  
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+  
+      .inactive-cell {
+        background-color: $inactive-cell-bg;
+        color: $label-color;
+      }
+    }
+  }
+  
+  
