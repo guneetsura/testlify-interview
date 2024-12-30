@@ -2,6 +2,8 @@
 
 This is a time tracker app that is used to log time for a project. It is built using React.
 
+Website is available at this [link](https://reliable-meringue-1f20f0.netlify.app/).
+
 ## Project setup
 ```
 npm install
