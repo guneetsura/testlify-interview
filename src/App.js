@@ -43,18 +43,12 @@ function App() {
             </div>
           </div>
           <div className="date-container">
-            {/* <div classname="date-range-picker"> */}
               <button className="date-btn">
-                <img src={leftArrow} alt="left arrow" />
+                <img src={leftArrow} alt="left arrow" className="left-arrow" />
                 <img src={calender} alt="calender" className="calender-icon" />
                 <input type="date" id="date" name="date" className="date-input" />
-                <img src={rightArrow} alt="right arrow" />
+                <img src={rightArrow} alt="right arrow" className="right-arrow" />
               </button>
-              
-              {/* <button className="arrow-btn">
-                
-              </button> */}
-            {/* </div> */}
             <span className="label">Group by</span>
             <button className="group-btn">
               Issues
