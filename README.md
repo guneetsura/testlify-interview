@@ -10,7 +10,6 @@ npm install
 ### Dependencies
 - React
 - SASS
-- npm install react-datepicker
 
 ### Compiles and hot-reloads for development
 ```
